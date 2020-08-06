@@ -1,0 +1,86 @@
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    position: relative;
+    right: 50px;
+    overflow: hidden;
+    outline: none;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.dropbtn:focus {
+    border: none;
+    outline: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #e0dede;
+    width: 95%;
+    height: 80%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: inherit;
+    padding: 20px;
+    overflow: auto;
+    border-radius: 10px;
+    
+}
+
+.dropbtn:hover {background-color: #e0dede !important;}
+
+.refresh {
+    width: 40px;
+    height: 40px;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    overflow: hidden;
+    outline: none;
+    position: relative;
+}
+
+.display {
+    border: 1.5px solid olivedrab;
+    border-radius: 10px;
+    height: 3.5em;
+    overflow: hidden;
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+.uInp {
+    width: 100%;
+    border-radius: 10px;
+    border: 1.5px solid olivedrab;
+    height: 3.5em;
+    overflow: hidden;
+    font-size: 2rem;
+    padding: 0.5rem;
+    resize: none;
+}
+
+.mainContent {
+    padding: 5% 10% 0% 10%;
+    
+}
+
+.correct{
+    color: rgb(45, 126, 38);
+}
+
+.incorrect{
+    background-color: orangered;
+}
+
+.current{
+    background-color: rgb(207, 207, 206);
+}
